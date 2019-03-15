@@ -14,6 +14,7 @@ namespace BankAccountNS
         private bool m_frozen = false;
         private BankAccount()
         { }
+
         public BankAccount(string customerName,double balance)
         {
             m_customerName = customerName;
